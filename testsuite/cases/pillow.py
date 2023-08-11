@@ -5,9 +5,6 @@ from PIL import Image, ImageFilter, ImageOps
 from .base import BaseTestCase, root
 
 
-Image.LANCZOS = Image.ANTIALIAS
-
-
 class PillowTestCase(BaseTestCase):
     filter_ids = {
         0: 'ner', 1: 'lzs', 2: 'bil', 3: 'bic',
